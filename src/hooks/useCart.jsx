@@ -30,7 +30,7 @@ export default useCart;
 //   // const token = localStorage.getItem('access-token');
 
 //   const { refetch, data: cart=[] } = useQuery(['carts', user?.email], async () => {
-//     const res = await fetch(`https://server-pi-liart.vercel.app/carts?email=${user?.email}`);
+//     const res = await fetch(`https://language-server-one.vercel.app/carts?email=${user?.email}`);
 //     return res.json();
 //   });
 

@@ -43,7 +43,7 @@ const AuthProvider = ({ children }) => {
     
       // get adnd set token 
       if (currentUser) {
-        axios.post('https://server-pi-liart.vercel.app/jwt', { email: currentUser.email })
+        axios.post('https://language-server-one.vercel.app/jwt', { email: currentUser.email })
           .then(data => {
            
             localStorage.setItem('access-token', data.data.token)

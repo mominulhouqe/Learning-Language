@@ -6,7 +6,7 @@ const useInstructor = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`https://server-pi-liart.vercel.app/users/instructor-emails`)
+        fetch(`https://language-server-one.vercel.app/users/instructor-emails`)
             .then(res => res.json())
             .then(data => {
                 setInstructors(data)

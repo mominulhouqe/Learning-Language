@@ -27,7 +27,7 @@ const RegistrationForm = () => {
         updatedUserProfiles(data.name, data.photoURL)
           .then(() => {
             const saveUser = { name: data.name, email: data.email, imgae: data.photoURL, student: '44', role: 'student' }
-            fetch('https://server-pi-liart.vercel.app/users', {
+            fetch('https://language-server-one.vercel.app/users', {
               method: 'POST',
               headers: {
                 'content-type': 'application/json'

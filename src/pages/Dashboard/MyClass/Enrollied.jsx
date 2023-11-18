@@ -11,7 +11,7 @@ const Enrollied = () => {
     const fetchUserData = async () => {
       try {
         const res = await fetch(
-          `https://server-pi-liart.vercel.app/users/myEnrol/${encodeURIComponent(user.email)}`
+          `https://language-server-one.vercel.app/users/myEnrol/${encodeURIComponent(user.email)}`
         );
         const data = await res.json();
         console.log(data);

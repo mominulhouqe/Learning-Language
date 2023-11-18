@@ -53,7 +53,7 @@ const ClassesPage = ({ isAdmin }) => {
       };
    
 
-      fetch("https://server-pi-liart.vercel.app/carts", {
+      fetch("https://language-server-one.vercel.app/carts", {
         method: "POST",
         headers: {
           'content-type': 'application/json'

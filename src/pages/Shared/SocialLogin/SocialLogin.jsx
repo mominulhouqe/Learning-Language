@@ -18,7 +18,7 @@ const SocialLogin = () => {
 
       const saveUser = { name:loggedUser.displayName, email: loggedUser.email, imgae:loggedUser.photoURL ,student:'44', role:'student'}
       console.log(saveUser);
-      fetch('https://server-pi-liart.vercel.app/users', {
+      fetch('https://language-server-one.vercel.app/users', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'

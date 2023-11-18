@@ -10,7 +10,7 @@ const PaymentHistory = () => {
     const fetchUserData = async () => {
       try {
         const res = await fetch(
-          `https://server-pi-liart.vercel.app/users/payments/${encodeURIComponent(user.email)}`
+          `https://language-server-one.vercel.app/users/payments/${encodeURIComponent(user.email)}`
         );
         const data = await res.json();
    
